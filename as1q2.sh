@@ -3,7 +3,7 @@
 
 for name in *
 do
-  newname=`echo $name | tr 'a-z' 'A-Z'`
+  newname=`echo $name | tr 'a-z' 'A-Z' `
   if [ "$name" != "$newname" ]
   then
     mv "$name" "$newname"

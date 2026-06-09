@@ -4,8 +4,8 @@ echo "Enter source file name:"
 read source
 
 echo "Enter destination file name:"
-read destination
+read dest
 
-cp "$source" "$destination"
+cp "$source" "$dest"
 
 echo "File copied successfully."

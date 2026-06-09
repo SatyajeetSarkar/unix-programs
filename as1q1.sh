@@ -4,13 +4,13 @@
 h=$(date +%H)
 if [ $h -ge 4 -a $h -lt 12 ]
 then
-    echo "Good Morning"
+    echo "GOOD MORNING"
 elif [ $h -ge 12 -a $h -lt 17 ]
 then
-    echo "Good Afternoon"
+    echo "GOOD AFTERNOON"
 elif [ $h -ge 17 -a $h -lt 21 ]
 then
-    echo "Good Evening"
+    echo "GOOD EVENING"
 else
-    echo "Good Night"
+    echo "GOOD NIGHT"
 fi
