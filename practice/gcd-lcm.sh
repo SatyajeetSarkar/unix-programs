@@ -9,7 +9,7 @@ do
     remainder=$((a % b))
     a=$b
     b=$remainder
-done
+done 
 
 gcd=$a
 

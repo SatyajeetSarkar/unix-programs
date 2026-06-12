@@ -1,0 +1,5 @@
+101,Amit Sharma,45000
+102,Priya Das,62000
+103,John Doe,35000
+104,Rohan Verma,55000
+105,Sneha Reddy,72000

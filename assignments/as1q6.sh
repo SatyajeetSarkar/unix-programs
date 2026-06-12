@@ -7,7 +7,7 @@ for file in *
 do
     if [ -f "$file" ]
     then
-        echo "File Name: $file" >> backup
+        echo "File Na230me: $file" >> backup
         echo "Size: $(stat -c%s "$file") bytes" >> backup
         echo "Permissions: $(stat -c%A "$file")" >> backup
         echo "-----------------------------" >> backup

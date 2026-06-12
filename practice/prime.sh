@@ -2,7 +2,7 @@ read -p "Enter an integer greater than 1: " num
 
 is_prime=1
 
-for ((i=2; i*i<=num; i++))
+for ((i=2; i<num/2; i++))
 do
     if [ $((num % i)) -eq 0 ]; then
         is_prime=0
